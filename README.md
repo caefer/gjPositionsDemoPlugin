@@ -8,6 +8,7 @@ This plugin exists purely to demonstrate the functionality of gjPositionsPlugin.
 2. two models that serve as content (`DemoArticle`, `DemoImage`)
 3. three design elements in configuration (`app.yml`) and module (`gjPositionsDemo/slideshow`, `gjPositionsDemo/relatedbykeyword`, `gjPositionsDemo/manuallink`)
 4. fixtures for one `DemoPage` and four `DemoArticle` and `DemoImage` each
+5. a nasty hack that wipes previously generated admin module code from cache in order to allow faster development of the admin theme
 
 ## Installation
 
