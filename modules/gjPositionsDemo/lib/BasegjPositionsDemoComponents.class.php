@@ -14,7 +14,7 @@ abstract class BasegjPositionsDemoComponents extends sfComponents
   {
   }
 
-  public function executeRelatedbykeywords(sfWebRequest $request)
+  public function executeRelatedbykeyword(sfWebRequest $request)
   {
   }
 }
