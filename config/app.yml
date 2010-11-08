@@ -1,0 +1,23 @@
+all:
+  gjPositionsPlugin:
+    design_elements:
+      slideshow:
+        applies_to:       [ Page ]
+        include:          [ gjPositionsDemo, slideshow ]            # component
+        accept:           [ Image ]
+        params:
+          autoplay:       { type: checkbox, default: true }
+      relatedbykeyword:
+        applies_to:       [ Page ]
+        include:          [ gjPositionsDemo, relatedbykeyword ]     # component
+        accept:           [ Article, Image ]
+        params:
+          number:         { type: text, default: "5" }
+      manuallink:
+        applies_to:       [ Page ]
+        include:          gjPositionsDemo/manuallink                # partial
+        accept:           ~
+        params:
+          text:           { type: text, default: "Your link text" } 
+          url:            { type: text, default: "http://" }
+          title:          { type: text, default: "Your link title" }
