@@ -1,0 +1,36 @@
+Page:
+  homepage:
+    title:      "Homepage | gjPositionsDemoPlugin"
+    headline:   "How to use gjPositionsPlugin"
+
+Article:
+  article_1:
+    title:      "Firesheep Countermeasure Tool BlackSheep | gjPositionsDemoPlugin"
+    headline:   "Firesheep Countermeasure Tool BlackSheep"
+    text:       "Slashdot already covered Firesheep, the Firefox extension that makes it easier to steal logins and take over social media and email accounts after users log in from a WiFi hotspot or even their own unprotected network. Zscaler researchers have created, and are now offering to every consumer, a free Firefox plugin called BlackSheep, which serves as a counter-measure. BlackSheep combats Firesheep by monitoring traffic and then alerting users if Firesheep is being used on the network. BlackSheep does this by dropping 'fake' session ID information on the wire and then monitors traffic to see if it has been hijacked."
+  article_2:
+    title:      "US Wants Upper Hand In Battling High-tech Bad Guys | gjPositionsDemoPlugin"
+    headline:   "US Wants Upper Hand In Battling High-tech Bad Guys"
+    text:       "The US Department of Justice this week said it was looking to boost the research and development of technology that could significantly bolster new forensic tools for digital evidence gathering. The DoJ's research and development arm, the National Institute of Justice (NIJ) said it was particularly interested in tools targeting forensic tools for mobile cellular devices; cloud computing environments; VoIP communication and vehicle computer systems."
+  article_3:
+    title:      "Bloglines Shutdown Avoided | gjPositionsDemoPlugin"
+    headline:   "Bloglines Shutdown Avoided"
+    text:       "Pioneer RSS feed manager Bloglines will continue operating thanks to a last-minute agreement for MerchantCircle to take over operation of the service from Ask.com. Ask.com, which announced it would shut down Bloglines by Oct. 1 and then postponed the closure several times, said that MerchantCircle, an online network for local business owners, will manage Bloglines starting in December."
+  article_4:
+    title:      "Google Scares Aussie Banks | gjPositionsDemoPlugin"
+    headline:   "Google Scares Aussie Banks"
+    text:       "Google could be the biggest threat to Australia's big four banks because of the trust online users place in it and its ability to engage with customers, banking executives say. They told an audience from the finance sector that companies like Google and PayPal are more responsive and trusted than banks, and cited emerging technology with an emphasis on online applications as a means for the smaller credit unions to challenge the position of incumbent banks. It's welcome news for Australia's credit unions: the nation's banks have taken turns in being the first to lift interest rates above the official reserve bank rate, with others collectively following suit, leading some to speculate they are in collusion."
+
+Image:
+  image_1:
+    title:      "Thai Cuisine"
+    file:       "/gjPositionsDemoPlugin/images/image-1.jpg"
+  image_2:
+    title:      "Baked Coconut Seafood"
+    file:       "/gjPositionsDemoPlugin/images/image-2.jpg"
+  image_3:
+    title:      "Cake"
+    file:       "/gjPositionsDemoPlugin/images/image-3.jpg"
+  image_4:
+    title:      "Lobster"
+    file:       "/gjPositionsDemoPlugin/images/image-4.jpg"
