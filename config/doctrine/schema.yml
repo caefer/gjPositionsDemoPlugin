@@ -1,4 +1,4 @@
-Page:
+DemoPage:
   actAs:
     gjCompositionCanvas:  ~
   columns:
@@ -7,7 +7,7 @@ Page:
 
 ###
 
-Article:
+DemoArticle:
   actAs:
     LooselyCoupled:
       ContentElement:     gjContentElement
@@ -17,7 +17,7 @@ Article:
     text:                 string(255)
     image:                string(36)
 
-Image:
+DemoImage:
   actAs:
     LooselyCoupled:
       ContentElement:     gjContentElement

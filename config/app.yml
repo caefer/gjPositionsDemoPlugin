@@ -2,19 +2,19 @@ all:
   gjPositionsPlugin:
     design_elements:
       slideshow:
-        applies_to:       [ Page ]
+        applies_to:       [ DemoPage ]
         include:          [ gjPositionsDemo, slideshow ]            # component
-        accept:           [ Image ]
+        accept:           [ DemoImage ]
         params:
           autoplay:       { type: checkbox, default: true }
       relatedbykeyword:
-        applies_to:       [ Page ]
+        applies_to:       [ DemoPage ]
         include:          [ gjPositionsDemo, relatedbykeyword ]     # component
-        accept:           [ Article, Image ]
+        accept:           [ DemoArticle, DemoImage ]
         params:
           number:         { type: text, default: "5" }
       manuallink:
-        applies_to:       [ Page ]
+        applies_to:       [ DemoPage ]
         include:          gjPositionsDemo/manuallink                # partial
         accept:           ~
         params:
