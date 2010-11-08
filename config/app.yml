@@ -21,3 +21,8 @@ all:
           text:           { type: text, default: "Your link text" } 
           url:            { type: text, default: "http://" }
           title:          { type: text, default: "Your link title" }
+      doesnotexist:
+        applies_to:       [ NonExistentDemoPage ]
+        include:          [ gjPositionsDemo, doesnotexist ]     # component
+        accept:           [ DemoArticle, DemoImage ]
+        params:           ~
