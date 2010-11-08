@@ -1,0 +1,27 @@
+Page:
+  actAs:
+    gjCompositionCanvas:  ~
+  columns:
+    title:                string(255)
+    headline:             string(255)
+
+###
+
+Article:
+  actAs:
+    LooselyCoupled:
+      ContentElement:     gjContentElement
+  columns:
+    title:                string(255)
+    headline:             string(255)
+    text:                 string(255)
+    image:                string(36)
+
+Image:
+  actAs:
+    LooselyCoupled:
+      ContentElement:     gjContentElement
+  columns:
+    title:                string(255)
+    file:                 string(255)
+
