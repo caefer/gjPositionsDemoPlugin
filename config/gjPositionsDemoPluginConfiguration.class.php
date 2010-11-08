@@ -17,5 +17,6 @@ class gjPositionsDemoPluginConfiguration extends sfPluginConfiguration
    */
   public function initialize()
   {
+    exec('rm -rf '.dirname(___FILE___).'/../cache/frontend/dev/config/modules_*');
   }
 }
