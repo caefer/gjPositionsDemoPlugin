@@ -14,7 +14,12 @@ abstract class BasegjPositionsDemoComponents extends sfComponents
   {
   }
 
-  public function executeRelatedbykeyword(sfWebRequest $request)
+  public function executeLatestArticles(sfWebRequest $request)
   {
+    $this->articles = Doctrine_Query::create()
+      ->from('DemoArticle a')
+      ->orderBy('a.created_at ASC')
+      ->limit($this->params['number'])
+      ->execute();
   }
 }

@@ -7,10 +7,10 @@ all:
         accept:           [ DemoImage ]
         params:
           autoplay:       { type: checkbox, default: true }
-      relatedbykeyword:
+      latestArticles:
         applies_to:       [ DemoPage ]
-        include:          [ gjPositionsDemo, relatedbykeyword ]     # component
-        accept:           [ DemoArticle, DemoImage ]
+        include:          [ gjPositionsDemo, latestArticles ]     # component
+        accept:           ~
         params:
           number:         { type: text, default: "5" }
       manuallink:

@@ -1,5 +1,6 @@
 DemoPage:
   actAs:
+    Timestampable:        ~
     gjCompositionCanvas:  ~
   columns:
     title:                string(255)
@@ -9,6 +10,7 @@ DemoPage:
 
 DemoArticle:
   actAs:
+    Timestampable:        ~
     LooselyCoupled:
       ContentElement:     gjContentElement
   columns:
@@ -19,6 +21,7 @@ DemoArticle:
 
 DemoImage:
   actAs:
+    Timestampable:        ~
     LooselyCoupled:
       ContentElement:     gjContentElement
   columns:
