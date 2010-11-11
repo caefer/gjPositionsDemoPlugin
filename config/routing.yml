@@ -1,0 +1,3 @@
+demopage:
+  url:   /demopage/:id
+  param: { module: demopage, action: index }
