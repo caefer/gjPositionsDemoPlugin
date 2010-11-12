@@ -12,7 +12,7 @@ all:
         description:      "This element displays a list of articles ordered by their creation date (latest on top). The number of articles can be configured with the 'number' parameter."
         applies_to:       [ DemoPage ]
         include:          [ gjPositionsDemo, latestArticles ]     # component
-        accept:           ~
+        accept:           [ DemoArticle ]
         params:
           number:         { type: text, default: "5" }
       manuallink:
