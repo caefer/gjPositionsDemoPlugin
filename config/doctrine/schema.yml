@@ -11,8 +11,7 @@ DemoPage:
 DemoArticle:
   actAs:
     Timestampable:        ~
-    LooselyCoupled:
-      ContentElement:     gjContentElement
+    gjContentElementable: ~
   columns:
     title:                string(255)
     headline:             string(255)
@@ -22,8 +21,7 @@ DemoArticle:
 DemoImage:
   actAs:
     Timestampable:        ~
-    LooselyCoupled:
-      ContentElement:     gjContentElement
+    gjContentElementable: ~
   columns:
     title:                string(255)
     file:                 string(255)
