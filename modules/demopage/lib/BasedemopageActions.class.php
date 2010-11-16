@@ -16,6 +16,5 @@ abstract class BasedemopageActions extends sfActions
     $this->forward404unless($id);
     $this->page = Doctrine_Core::getTable('DemoPage')->find($id);
     $this->getResponse()->setTitle($this->page['title']);
-    $this->config = sfConfig::get('app_gjPositionsPlugin_design_elements', array());
   }
 }
