@@ -11,7 +11,7 @@ DemoPage:
 DemoArticle:
   actAs:
     Timestampable:        ~
-    gjContentElementable: ~
+    gjCompositionContent: ~
   columns:
     title:                string(255)
     headline:             string(255)
@@ -21,7 +21,7 @@ DemoArticle:
 DemoImage:
   actAs:
     Timestampable:        ~
-    gjContentElementable: ~
+    gjCompositionContent: ~
   columns:
     title:                string(255)
     file:                 string(255)
