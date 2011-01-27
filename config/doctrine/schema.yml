@@ -11,7 +11,8 @@ DemoPage:
 DemoArticle:
   actAs:
     Timestampable:        ~
-    gjCompositionContent: ~
+    gjCompositionContent:
+      override:           [ title, headline ]
   columns:
     title:                string(255)
     headline:             string(255)
