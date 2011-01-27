@@ -27,6 +27,6 @@ Then build all the classes and load the database.
 
 Next you need to generate an admin module for `DemoPage`.
 
-    $ php symfony doctrine:generate-admin --theme=composition DemoPage
+    $ php symfony doctrine:generate-admin --theme=composition <application> DemoPage
 
 Now browse http://localhost/demo_page and see where it goes!
